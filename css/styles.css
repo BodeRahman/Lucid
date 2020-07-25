@@ -107,5 +107,22 @@ figure img{
     font-weight: bold;
     font-size: 18px;
     color: rgba(17, 17, 17, 0.75);
+}
 
+.comment-dis{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.dis {
+    font-size: 18px;
+    line-height: 22px;
+    color: #871E99;
+    padding-right: 55px;
+    padding-bottom: 30px;
+}
+
+.find{
+    color: #871E99;
 }
