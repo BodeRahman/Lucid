@@ -103,6 +103,15 @@ figure img{
     color: rgba(17, 17, 17, 0.35);
 
 }
+.zili{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.pix-zili{
+    height: 100%;
+    width: 100%;
+}
 
 .figure2 {
     height: 48px;
