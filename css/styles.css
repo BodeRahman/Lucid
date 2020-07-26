@@ -24,8 +24,13 @@ figure img{
     height: 80px;
     width: 80px;
 }
-
-
+.topnav a:hover {
+    border-bottom: 3px solid #871E99;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #871E99;
+  }
 .profile-name{
     font-weight: bold;
     font-size: 22px;
@@ -120,13 +125,14 @@ figure img{
     font-size: 18px;
     line-height: 22px;
     color: #871E99;
-    padding-right: 55px;
+    padding-right: 65px;
     padding-bottom: 30px;
 }
 
 .find{
     color: #871E99;
 }
+<<<<<<< HEAD:css1/styles.css
  .zili{
     display: flex;
     flex-direction: row;
@@ -136,4 +142,20 @@ figure img{
     height:100%;
     width: 100%;
     padding-right: none;
+=======
+
+.comment-2{
+    margin-top: 35px;
+}
+
+.dis-acc{
+    margin-top: 80px;
+}
+
+.follow{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9179EF;
+>>>>>>> 7ea120891b8869e7d318f96c813adfb8dc20b7d0:css/styles.css
 }
