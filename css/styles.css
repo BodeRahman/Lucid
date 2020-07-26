@@ -49,8 +49,7 @@ figure img{
 }
 .comment-header{
     display: flex;
-    flex-direction: row; 
-
+    flex-direction: row;
 }
 .comment-pix{
     height: 48px;
@@ -87,7 +86,7 @@ figure img{
     color: rgba(0, 0, 0, 0.5);
 }
 .reactions{
-    /* width: 100%; */
+    width: 67%;
 }
 .icon{
     margin: 4px;
@@ -132,17 +131,6 @@ figure img{
 .find{
     color: #871E99;
 }
-<<<<<<< HEAD:css1/styles.css
- .zili{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-} 
-.pix-zili{
-    height:100%;
-    width: 100%;
-    padding-right: none;
-=======
 
 .comment-2{
     margin-top: 35px;
@@ -157,5 +145,4 @@ figure img{
     font-size: 16px;
     line-height: 19px;
     color: #9179EF;
->>>>>>> 7ea120891b8869e7d318f96c813adfb8dc20b7d0:css/styles.css
 }
