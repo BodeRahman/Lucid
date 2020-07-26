@@ -78,7 +78,12 @@ figure img{
     line-height: 26px;
     color: rgba(17, 17, 17, 0.75);
 }
-
+.dis-acc{
+    margin-top: 80px;
+}
+.comment-2{
+    margin-top: 35px;
+}
 .count{
     font-weight: 500;
     font-size: 14px;
