@@ -49,8 +49,7 @@ figure img{
 }
 .comment-header{
     display: flex;
-    flex-direction: row; 
-
+    flex-direction: row;
 }
 .comment-pix{
     height: 48px;
@@ -87,7 +86,7 @@ figure img{
     color: rgba(0, 0, 0, 0.5);
 }
 .reactions{
-    /* width: 100%; */
+    width: 67%;
 }
 .icon{
     margin: 4px;
@@ -142,13 +141,3 @@ figure img{
     color: #871E99;
 }
 
- .zili{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-} 
-.pix-zili{
-    height:100%;
-    width: 100%;
-    padding-right: none;
-}
