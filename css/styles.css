@@ -3,16 +3,22 @@ html,body{
     background:#FFFFFF;
     font-family: 'Lato', sans-serif;
 }
- .navbar{
+
+/*Header section*/
+.navbar{
     display: flex;
 }
+
 .navbar-nav{
     justify-content: right;
     float: right;
-} 
+}
+
 .nav-item{
     margin: 10px;
 }
+
+/*Main section*/
 figure {
     overflow: auto;
     margin-left: 10px;
@@ -24,13 +30,7 @@ figure img{
     height: 80px;
     width: 80px;
 }
-.topnav a:hover {
-    border-bottom: 3px solid #871E99;
-  }
-  
-.topnav a.active {
-    border-bottom: 3px solid #871E99;
-}
+
 .profile-name{
     font-weight: bold;
     font-size: 22px;
@@ -44,33 +44,49 @@ figure img{
     font-size: 16px;
     font-weight: bold;
 }
+
+/*Navbar and comments section*/
+.topnav a:hover {
+    border-bottom: 3px solid #871E99;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid #871E99;
+}
+
 .comment-brand{
     margin-left: 10px;
 }
+
 .comment-header{
     display: flex;
     flex-direction: row;
 }
+
 .comment-pix{
     height: 48px;
     width: 48px;
 }
+
 .brand-title{
     font-size: 16px;
     line-height: 19px;
     color: rgba(17, 17, 17, 0.75);
 }
+
 .brand-heading{
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #111111;
 }
+
 .timestamp{
     font-size: 16px;
     line-height: 26px;
     color: rgba(17, 17, 17, 0.5);
 }
+
 .brand-texts{
     width: 100%;
     font-weight: normal;
@@ -78,43 +94,52 @@ figure img{
     line-height: 26px;
     color: rgba(17, 17, 17, 0.75);
 }
-.dis-acc{
-    margin-top: 80px;
-}
-.comment-2{
-    margin-top: 35px;
-}
+
 .count{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 .reactions{
     width: 67%;
 }
+
 .icon{
     margin: 4px;
 }
+
 .reply{
     margin-left: 20px;
 }
+
 .tag{
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     float: right;
     color: rgba(17, 17, 17, 0.35);
-
 }
+
 .zili{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
+
 .pix-zili{
     height: 100%;
     width: 100%;
+}
+
+/*Discovery Account section*/
+.dis-acc{
+    margin-top: 80px;
+}
+
+.comment-2{
+    margin-top: 35px;
 }
 
 .figure2 {
@@ -122,7 +147,7 @@ figure img{
     width: 48px;
 }
 
-.profile-name{
+.profile-name2{
     font-weight: bold;
     font-size: 18px;
     color: rgba(17, 17, 17, 0.75);
@@ -146,28 +171,32 @@ figure img{
     color: #871E99;
 }
 
- /* Page 2 */
- .blog{
+ /* discover page */
+.blog{
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     margin-left: 18px;
 }
+
 .top{
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
 }
+
 .contributors{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
 }
+
 .contrib{
     display: flex;
     flex-direction: column;
     padding:20px;
 }
+
 .boxed{
     background: #EEEEEE;
     border: 1px solid white;
@@ -177,6 +206,7 @@ figure img{
     max-width: 100%;
     margin: 10px;
 }
+
 .search{
     font-size: 16px;
     line-height: 19px;
