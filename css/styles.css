@@ -28,9 +28,9 @@ figure img{
     border-bottom: 3px solid #871E99;
   }
   
-  .topnav a.active {
+.topnav a.active {
     border-bottom: 3px solid #871E99;
-  }
+}
 .profile-name{
     font-weight: bold;
     font-size: 22px;
@@ -141,3 +141,53 @@ figure img{
     color: #871E99;
 }
 
+ /* Page 2 */
+ .blog{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 18px;
+}
+.top{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.contributors{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.contrib{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.boxed{
+    background: #EEEEEE;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90%;
+    height: 42px;
+    max-width: 100%;
+    margin: 10px;
+}
+.search{
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(17, 17, 17, 0.5);
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.topic-con{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(17, 17, 17, 0.75);
+}
+
+.pix{
+    height: 10px;
+    width: 10px;
+}
