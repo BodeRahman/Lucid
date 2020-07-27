@@ -13,11 +13,23 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div class="dropdown-container">
+      <div class="dropdown" onclick="event.stopPropagation()">
+        <ul class="dropdown-list" >
+          <li class="list-item" href="#">Timeline<span class="sr-only">(current)</span></li>
+          <li class="list-item" href="#">Posts</li>
+          <li class="list-item" href="#">Contact</li>
+          <li class="list-item" href="#">Discover</li>
+          <li class="list-item" href="#">Notifications</li>
+          <li class="list-item" href="#">Settings</li>
+        </ul>
+      </div>
+    </div>
     <!-- Header section -->
     <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img class="image-fluid" src="images/lucid-logo 1.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -30,7 +42,7 @@
     </header>
     <!--Main section-->
     <section id="main-blog" class="container">
-      <div class="row ">
+      <div class="row">
         <div class="col-md-8">
           <section class="d-flex">
             <figure class="figure">
@@ -53,10 +65,10 @@
           </section>
           <!--Navbar and Comments section-->
           <nav class="nav topnav d-flex justify-content-start border">
-            <a class="p-3 text-muted" href="index.html">Timeline</a>
-            <a class="p-3 text-muted" href="#">Posts</a>
-            <a class="p-3 text-muted" href="#">Contact</a>
-            <a class="p-3 text-muted" href="discover.html">Discover</a>
+            <a class="p-2 text-muted" href="index.html">Timeline</a>
+            <a class="p-2 text-muted" href="#">Posts</a>
+            <a class="p-2 text-muted" href="#">Contact</a>
+            <a class="p-2 text-muted" href="discover.html">Discover</a>
           </nav>
           <div class="border comment">
             <div class="col-12 mt-2 comment-header">
@@ -115,9 +127,7 @@
               </div>
             </div>
             <div class="col-4 pr-0">
-              <picture>
-                <img class="img-fluid pix-zili" src="images/Rectangle 10.png">
-              </picture>
+              <img class="img-fluid pix-zili" src="images/Rectangle 10.png">
             </div>
           </div>
           <div class="border comment">
@@ -140,7 +150,7 @@
             </div>
           </div>
           <div class="border comment zili">
-            <div class="col-12 mt-2 comment-header">
+            <div class="col-md-8 col-lg-8 col-sm-8 mt-2 comment-header">
               <div>
                 <img class="comment-pix" src="images/Ellipse 13 (2).png">
               </div>
@@ -156,10 +166,8 @@
                   <p class="tag ">RSS Feed</p>
                 </div>
               </div>
-              <div class="col-4 pr-0">
-                <picture>
-                  <img class="img-fluid pix-zili" src="images/Rectangle 10 (1).png">
-                </picture>
+              <div class="col-md-4 col-lg-4 col-sm-4 pr-0">
+                <img class="img-fluid pix-zili" src="images/Rectangle 10 (1).png">
               </div>
             </div>
           </div>
@@ -249,6 +257,7 @@
     <!-- blog navbar -->
         <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="js/article.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

@@ -13,11 +13,23 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div class="dropdown-container">
+      <div class="dropdown" onclick="event.stopPropagation()">
+        <ul class="dropdown-list" >
+          <li class="list-item" href="#">Timeline<span class="sr-only">(current)</span></li>
+          <li class="list-item" href="#">Posts</li>
+          <li class="list-item" href="#">Contact</li>
+          <li class="list-item" href="#">Discover</li>
+          <li class="list-item" href="#">Notifications</li>
+          <li class="list-item" href="#">Settings</li>
+        </ul>
+      </div>
+    </div>
     <!-- Header section -->
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#"><img src="images/lucid-logo 1.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -51,10 +63,10 @@
       <div class="row ">
         <div class=" col-sm-12 col-md-8 col-lg-9 border">
           <nav class="nav topnav d-flex justify-content-start">
-            <a class="p-3 text-muted" href="index.html">Timeline</a>
-            <a class="p-3 text-muted" href="#">Posts</a>
-            <a class="p-3 text-muted" href="#">Contact</a>
-            <a class="p-3 text-muted" href="discover.html">Discover</a>
+            <a class="p-2 text-muted" href="index.html">Timeline</a>
+            <a class="p-2 text-muted" href="#">Posts</a>
+            <a class="p-2 text-muted" href="#">Contact</a>
+            <a class="p-2 text-muted" href="discover.html">Discover</a>
           </nav>
           <hr>
           <!-- work here-->
@@ -236,6 +248,7 @@
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="js/article.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
