@@ -14,10 +14,22 @@
     <link rel="stylesheet" href="css/article.css">
   </head>
   <body>
+    <div class="dropdown-container">
+      <div class="dropdown" onclick="event.stopPropagation()">
+        <ul class="dropdown-list" >
+          <li class="list-item" href="index.html">Timeline<span class="sr-only">(current)</span></li>
+          <li class="list-item" href="article.html">Posts</li>
+          <li class="list-item" href="#">Contact</li>
+          <li class="list-item" href="discover.html">Discover</li>
+          <li class="list-item" href="#">Notifications</li>
+          <li class="list-item" href="#">Settings</li>
+        </ul>
+      </div>
+    </div>
     <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img src="images/lucid-logo 1.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -29,22 +41,218 @@
           </nav>
     </header>
     <br>
-    <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Blog</a></li>
+          <li class="breadcrumb-item crumb"><a href="#">Home</a></li>
+          <li class="breadcrumb-item crumb"><a href="#">Blog</a></li>
           <li class="breadcrumb-item active" aria-current="page">How Is The Corona Virus Going To Change The World? </li>
         </ol>
-      </nav>
-    </div>
+      </nav> 
     <div class="container">
       <div class="row">
-        
-      </div>
+        <div class="col-xm-12 col-sm-12 col-md-7 col-lg-9 article-text">
+          <div class="article-text">
+            <p class="text-header">How Is The Corona Virus Going To Change The World?</p>
+            <p class="Date">Published on May 3rd, 2020 03:22 AM</p>
+            <br>
+            <p class="text-content">Will the Corona Virus fundamentally change the world? I say no -
+                 because we do the things we do for various humans reasons - and none of those reasons 
+                 have changed.
+            </p>
+            <p class="text-content">The world may seem more dangerous, but is it actually more dangerous? 
+                Driving long distance in Nigeria is actually quite dangerous, but people do it all the time.
+                 Because there is no real choice. After a Corona Vaccine has spread, there may be some fear,
+                  but there won't be any real and actual danger. And people will adapt to go back to doing things
+                   as they used to.
+            </p>
+            <p class="text-content"> But what will actually change? </p>
+            <p class="text-content">The Corona Virus is an economic shock. That means that a lot of businesses
+                 that were weak before will die. The talent that was tied up in those businesses will then be 
+                 looking to join other businesses - and they will prefer more stable, bigger companies.
+                  We should expect stronger big business, and weaker small business.
+            </p>
+            <p class="text-content"> Many people have learnt about working remote in this period. Many 
+                organisations too. We can expect the creation of a brand new market in that more people will
+                 start working from home.
+            </p>
+            <p class="text-content"> A lot of older people have and will die. This will slightly help the 
+                demographic balance in many advanced economies. In developing economies, it will free up a lot
+                 of leadership spots for younger people, and accelerate the replacement of older leaders. We should
+                  expect more radical and 'change' politics in coming years.
+            </p>
+            <p class="text-content">The price of oil has dropped massively. A lot of countries are going to go into
+                 a sustained economic shock, and this could lead to revolutions or wars. The major oil producers of OPEC 
+                 are in this list.
+            </p>
+            <p class="text-content">People being cooped up for so long means that they will want to travel. But 
+                destinations will change - before the idea of mingling with a lot of people was fun - now we have 
+                all been taught for a few months how dangerous this is. So expect more travel to hiking trails, 
+                forests, mountains, cabins and cycle tours. Nature travel is another big category that is coming up.
+            </p>
+            <p class="text-content">The forced stay-at-home means that many, many more people were educated on e-commerce.
+                 As the economy recovers, we should expect to see a growth in a lot of online services. The migration to 
+                 online is going to accelerate, particularly in countries that have been offline first for a long time.</p>
+            <p class="text-content">Generally, things will change, but the core of who we are will pretty much remain the same.</p>
+          </div>
+          <hr class="line">
+          <div class="reaction">
+            <img class="icons" src="images/thumbsup.png"><span class="votes">23</span>
+            <img class="icons reply" src="images/reply1.png"><span class="votes">25</span>
+            <div class="socials ml-auto">
+              <a class="btn btn-primary social" href="#"><img src ="images/twitter.png" class="social-img1">Tweet</a> 
+              <a class="btn btn-primary social1" href="#"><img src ="images/facebook.png" class="social-img2">Share</a> 
+              <a class="btn btn-primary social" href="#"><img src ="images/linkedin.png" class="social-img3">Share</a> 
+            </div>
+          </div>
+          <div class="reaction-mobile">
+            <div class="paging">
+              <a class="post ml-auto" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 0 1 0 .708L3.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+                  <path fill-rule="evenodd" d="M2.5 8a.5.5 0 0 1 .5-.5h10.5a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                PREVIOUS POST 
+              </a>
+              <a class="post margin mr-auto" href="#">NEXT POST 
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+                </svg>
+              </a>
+              <hr>
+              <div class="reaction-mobile">
+                <div>
+                  <img class="icon" src="images/upvote.png"><span class="count">23</span>
+                  <img class="icon reply" src="images/reply.png"><span class="count">25</span>
+                </div>
+                <div class="icon-mobile ">
+                  <p class="share">Share:</p>
+                  <a class="mobile" href="#"><img src="images/tweet-mobile.png"></a>
+                  <a class="mobile" href="#"><img src="images/face-mobile.png"></a>
+                  <a class="mobile" href="#"><img src="images/link-mobile.png"></a>
+                </div>
+              </div>
+              <hr>
+              <div class="not-mobile comment-header">
+                <div>
+                  <img src="images/man_1.png" class="comment-pix">
+                </div>
+                <div class="comment-group">
+                  <p class="first-name">Isaac Fayemi</p>
+                  <p class="first-content">design junkie, no code revolution’s top championeer and AI enthusiast 😎</p>
+                  <a class="follow" href="#">FOLLOW</a>
+                  <a class="follow1" href="#">CONTACT</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="comment-box"> 
+              <input class="comment" placeholder="Write Comments">
+            <br><br>
+            <div class="ml-auto">
+              <a class="btn btn-primary left" href="#">Comment</a>
+            </div>
+          </div> 
+          <br>
+          <div class="comment-section">
+            <p class="header">COMMENTS</p>
+            <br>
+            <div class="col-12 comment-header">
+              <div>
+                <img class="comment-pix" src="images/lady_1.png">
+              </div>
+              <div class="comment-group">
+                <p class="comment-name">Ronald Richard<span class="timestamp">&#9679; 3 days ago</span></p>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum, 
+                  turpis nec suscipit vulputate, diam felis viverra justo, et interdum turpis orci sit amet quam. 
+                  Suspendisse pharetra condimentum lobortis. Quisque mattis lectus vel dui pretium, ut finibus dolor 
+                  viverra. Nullam nec interdum magna.
+                </p>
+                <a class="reply1" href="#">REPLY</a>
+              </div>
+            </div>
+            <br>
+            <div class="subcomment">
+              <div class="col-12 comment-header">
+                <div>
+                  <img class="subcomment-pix" src="images/man_2.png">
+                </div>
+                <div class="comment-group">
+                  <p class="subcomment-name">Marvin McKinney<span class="timestamp">&#9679; 3 days ago</span></p>
+                  <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum,
+                     turpis nec suscipit vulputate, diam felis viverra justo, et interdum turpis... 
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 comment-header">
+                <div>
+                  <img class="subcomment-pix" src="images/lady_2.png">
+                </div>
+                <div class="comment-group">
+                  <p class="subcomment-name">Esther Howard<span class="timestamp">&#9679; 4 days ago</span></p>
+                  <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum,
+                    turpis nec suscipit vulputate, diam felis viverra justo, et interdum turpis... 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 comment-header">
+              <div>
+                <img class="comment-pix" src="images/lady_3.png">
+              </div>
+              <div class="comment-group">
+                <p class="comment-name">Jane Cooper<span class="timestamp">&#9679; 6 days ago</span></p>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum, 
+                  turpis nec suscipit vulputate, diam felis viverra justo, et interdum turpis orci sit amet quam. 
+                  Suspendisse pharetra condimentum lobortis. Quisque mattis lectus vel dui pretium, ut finibus dolor 
+                  viverra. Nullam nec interdum magna.
+                </p>
+                <a class="reply1" href="#">REPLY</a>
+              </div>
+            </div>
+            <br><br>
+          </div>
+        </div>
+        <div class="col-xm-12 col-sm-12 col-md-5 col-lg-3 notification">
+          <div class="not-first">
+            <img src="images/man_1.png" class="first-pix">
+            <br><br>
+            <p class="first-name">Isaac Fayemi</p>
+            <p class="first-content">design junkie, no code revolution’s top championeer and AI enthusiast 😎</p>
+            <div>
+              <a class="follow" href="#">FOLLOW</a>
+              <a class="follow1" href="#">CONTACT</a>
+            </div>
+            <br>
+            <div class="next-post">
+              <a class="post" href="#">NEXT POST 
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+                </svg>
+              </a>
+              <p class="first-content">Getting feedback from the entire company using a stress report </p>
+            </div>
+            <div class="next-post">
+              <a class="post" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 0 1 0 .708L3.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+                  <path fill-rule="evenodd" d="M2.5 8a.5.5 0 0 1 .5-.5h10.5a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                PREVIOUS POST 
+              </a>
+              <p class="first-content">Trying to partner with a big company almost killed Hotels.ng</p>
+            </div>
+          </div>
+        </div>
+      </div> 
     </div>
+
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
